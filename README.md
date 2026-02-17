@@ -6,7 +6,7 @@
 This is a lightweight **external** cheat base written in C++ designed for Counter-Strike 2.  
 It uses direct system calls (`NtReadVirtualMemory`) instead of regular `ReadProcessMemory` for memory reading.
 
-Perfect starting point if you're building your own external cheat / overlay / ESP / radar / etc.
+Perfect starting point if you're building your own external cheat : aimbot / ESP / radar / etc.
 
 ### Features (current base)
 - Clean external memory reading via NtReadVirtualMemory
