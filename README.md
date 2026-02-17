@@ -9,9 +9,8 @@ It uses direct system calls (`NtReadVirtualMemory`) instead of regular `ReadProc
 Perfect starting point if you're building your own external cheat : aimbot / ESP / radar / etc.
 
 ### Features (current base)
-- Clean external memory reading via NtReadVirtualMemory
+- Clean external memory reading/writing via NtReadVirtualMemory/NtWriteVirtualMemory
 - Process / module handling
-- Basic offset / pattern scanning support (expandable)
 - Minimal dependencies
 
 ### Coming soon...
