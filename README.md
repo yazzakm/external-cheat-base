@@ -1,7 +1,7 @@
 # External Cheat Base for CS2
 
 **Author:** yazz.akm  
-**Memory class base:** Originally by stackz → modified to use `NtReadVirtualMemory`
+**Memory class base:** Originally by [stackz](https://github.com/obamaruntz) → modified to use `NtReadVirtualMemory`
 
 This is a lightweight **external** cheat base written in C++ designed for Counter-Strike 2.  
 It uses direct system calls (`NtReadVirtualMemory`) instead of regular `ReadProcessMemory` for memory reading.
